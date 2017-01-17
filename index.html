@@ -6,10 +6,135 @@
     
     <!--Put your CSS inside this style tag-->
     <style>
+
+    	body{
+    		background-color: #DCDCDC;
+    	}
+  
+    	.post{
+    		margin: 2% auto;
+    		width: 600px;
+    		border: 1px solid #C0C0C0;
+    		display: table;
+    		background-color: white;
+    	}
+    	.logo{
+    		width:40px;
+    		height: 40px;
+    		float: left;
+    		margin-left:20px;
+    		margin-right: 0;
+    		padding-right: 0;
+    	}
+    	ul.pantry{
+    		float: left;
+    		width: 100px;
+    		padding-left: 13px;
+    		margin-top:0;
+    		font-family: arial;
+    		padding-top: 2px;
+
+    	}
+    	.time{
+    		list-style: none;
+    		line-height: 130%;
+    		color: lightgrey;
+    		float: right;
+    		padding-right: 20px;
+    	}
+    	.name {
+    		list-style: none;
+    		line-height: 130%;
+    	}
+    	.name1{
+    		list-style: none;
+    		font-weight: bold;
+    	}
+
+    	.self{
+    		width: 600px;
+    		border-top: 1px solid lightgrey;
+    	}
+
+    	.likes{
+    		list-style: none;
+    		color: #333;
+    		font-weight: bold;
+    		line-height: 200%;
+    		font-family: arial;
+    		float: left;
+    	}
+    	p{
+    		float: left;
+    		font-family: arial;
+    		padding-top: 39px;
+    		padding-left: 6px;
+    		padding-bottom: 0;
+    	}
+    	hr{
+    		width: 519px;
+    		color: #C0C0C0;
+    	}
+    	.comment{
+    		list-style: none;
+    		display: inline-block;
+    	}
+    	img.heart{
+    		height:20px;
+    		width: 20px;
+    	
+    	}
+    	li.add{
+    		color: #C0C0C0;
+    		width: 200px;
+    		padding-left: 10px;
+    		vertical-align: top;
+    	}
+    	.dots{
+    		height: 7.5px;
+    		width: 25px;
+    		padding-left: 250px;
+    		vertical-align: top;
+    		
+    	}
+    	.comment li{
+    		display: inline-block;
+    	}
     </style>
   </head>
   
   <body>
+  <div class = "post">
+  <div class = "clear">
+  	<header>
+  		<img src = "img/logo.jpg" alt = "logo" class = "logo">
+  		<ul class = "pantry">
+  			<li class = "name1">387pantry</li>
+  			<li class = "name">387 Pantry</li>
+  		</ul>
+  		<ul>
+  			<li class = "time">44m</li>
+  		</ul>
+
+  	</header>
+  	<div class = "img">
+  		<img src = "img/self.jpg" alt = "gavin" class = "self">
+  	</div>
+  	</div>
+  	<ul class = "likes">
+  		<li> 12 likes </li>
+  		<li> 387pantry </li>
+  	</ul>
+  	<p> New Year | Same great coffee (and other great stuff too).</p>
+  	<hr class = "bottom"></hr>
+  	<ul class = "comment">
+  		<li><img src = "img/ig_heart.png" alt = "heart" class = "heart"></li>
+  		<li class = "add">Add a comment...</li>
+  		<li><img src = "img/ig_dots.png" alt = "dots" class = "dots"></li>
+  	</ul>
+
+  </div>
+  </div>
   </body>
   
 </html>
